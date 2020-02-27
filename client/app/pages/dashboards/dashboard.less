@@ -209,6 +209,28 @@
 public-dashboard-page {
   > .container {
     min-height: calc(100vh - 95px);
+    background: #ffffff;
+    color: #00183D;
+
+    .tiled {
+      border-radius: 0;
+      border: 1px solid #D1DEE8;
+      box-shadow: none;
+    }
+
+    .tile {
+      border-radius: 0;
+      border: 1px solid #D1DEE8;
+      box-shadow: none;
+    }
+
+    .t-header:not(.th-alt) {
+      .th-title {
+        span {
+          color: #00183D;
+        }
+      }
+    }
   }
 
   #footer {
